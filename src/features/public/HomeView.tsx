@@ -169,7 +169,7 @@ export const HomeView: React.FC = () => {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="w-full sm:w-auto border-white/60 text-white hover:bg-white/10 font-medium px-7 backdrop-blur-sm"
+                  className="w-full sm:w-auto bg-transparent border-white/60 text-white hover:bg-white/10 active:bg-white/20 font-medium px-7 backdrop-blur-sm"
                 >
                   Pelajari Layanan Simpanan
                 </Button>
