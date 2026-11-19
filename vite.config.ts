@@ -13,5 +13,17 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  build: {
+    outDir: "dist",
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ["react", "react-dom", "react-router-dom", "zustand"],
+          charts: ["recharts"],
+          ui: ["lucide-react", "clsx", "tailwind-merge"],
+        },
+      },
+    },
+  },
 });
 
