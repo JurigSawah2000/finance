@@ -125,8 +125,9 @@ export const HomeView: React.FC = () => {
             className="w-full h-full object-cover object-center"
           />
           {/* Subtle Institutional Overlays for Optimal Text Legibility */}
-          <div className="absolute inset-0 bg-gradient-to-r from-forest-950/95 via-forest-950/80 sm:via-forest-950/65 to-forest-950/25" />
-          <div className="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-transparent to-forest-950/30 sm:hidden" />
+          <div className="absolute inset-0 bg-forest-950/40" />
+          <div className="absolute inset-0 bg-gradient-to-r from-forest-950/95 via-forest-950/85 sm:via-forest-950/75 to-forest-950/20" />
+          <div className="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-transparent to-forest-950/40" />
         </div>
 
         {/* Content Container */}
@@ -142,13 +143,13 @@ export const HomeView: React.FC = () => {
             </div>
 
             {/* Semantic H1 for SEO, Accessibility & Quality Gate */}
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.12] sm:leading-[1.08] break-words mb-5">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.12] sm:leading-[1.08] break-words mb-5 drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
               Tumbuh Bersama, <br />
               <span className="text-forest-200">Menyejahterakan</span> Anggota.
             </h1>
 
             {/* Subtitle */}
-            <p className="text-sm sm:text-base lg:text-lg text-forest-100/95 leading-relaxed font-normal mb-8 sm:mb-9 max-w-xl">
+            <p className="text-sm sm:text-base lg:text-lg text-forest-100 leading-relaxed font-normal mb-8 sm:mb-9 max-w-xl drop-shadow-[0_1px_4px_rgba(0,0,0,0.4)]">
               Platform koperasi terpercaya yang memadukan semangat gotong royong dengan tata kelola finansial modern, transparan, dan berkeadilan bagi seluruh anggota.
             </p>
 
